@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Getting Started with Next.js",
+      "category": "Web Development",
+      "content": "Next.js is a powerful React framework for building fast and scalable applications.",
+      "status": "published"
+    },
+    {
+      "id": "2",
+      "title": "Top 10 JavaScript Tips",
+      "category": "Programming",
+      "content": "Enhance your coding skills with these 10 essential JavaScript tips and tricks.",
+      "status": "draft"
+    },
+    {
+      "id": "3",
+      "title": "Traveling to Japan",
+      "category": "Travel",
+      "content": "Discover the beauty of Japan, from Tokyo’s neon streets to Kyoto’s temples.",
+      "status": "published"
+    },
+    {
+      "id": "4",
+      "title": "Healthy Eating on a Budget",
+      "category": "Lifestyle",
+      "content": "Learn how to prepare nutritious meals without overspending.",
+      "status": "trashed"
+    },
+    {
+      "id": "5",
+      "title": "AI and the Future of Work",
+      "category": "Technology",
+      "content": "Artificial Intelligence is reshaping industries and changing the way we work.",
+      "status": "published"
+    },
+    {
+      "id": "6",
+      "title": "Beginner’s Guide to Yoga",
+      "category": "Health",
+      "content": "Yoga helps improve flexibility, balance, and mental well-being.",
+      "status": "draft"
+    },
+    {
+      "id": "7",
+      "title": "How to Start Investing",
+      "category": "Finance",
+      "content": "Begin your investment journey with stocks, bonds, and index funds.",
+      "status": "published"
+    },
+    {
+      "id": "8",
+      "title": "The History of Video Games",
+      "category": "Entertainment",
+      "content": "From Pong to modern VR, video games have transformed over the decades.",
+      "status": "trashed"
+    },
+    {
+      "id": "9",
+      "title": "Building a Personal Portfolio Website",
+      "category": "Web Development",
+      "content": "Showcase your projects and skills with a professional online portfolio.",
+      "status": "published"
+    },
+    {
+      "id": "10",
+      "title": "Minimalist Living: Less is More",
+      "category": "Lifestyle",
+      "content": "Minimalism focuses on simplifying life and finding joy with fewer possessions.",
+      "status": "draft"
+    }
+  ]
+}
