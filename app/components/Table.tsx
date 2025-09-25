@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import TableRow from "./TableRow";
-import Navbar from "./TableNav";
+import TableNav from "./TableNav";
 
 type Tab = "published" | "draft" | "trashed";
 
@@ -35,15 +35,15 @@ export default function Table({ posts: initialPosts, initialTab = "published" }:
 
   return (
     <div>
-      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      <TableNav activeTab={activeTab} setActiveTab={setActiveTab} />
 
       <div className="overflow-x-auto">
         <table className="table bg-gray-700 rounded-t-none">
           <thead>
-            <tr>
-              <th>Title</th>
-              <th>Category</th>
-              <th>Actions</th>
+            <tr className="bg-gray-900">
+              <th className="text-left">Title</th>
+              <th className="text-center">Category</th>
+              <th className="text-right">Actions</th>
             </tr>
           </thead>
           <tbody>

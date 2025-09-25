@@ -13,9 +13,9 @@ interface TableRowProps {
 export default function TableRow({ id, title, category, onTrash }: TableRowProps) {
   return (
     <tr>
-      <td>{title}</td>
-      <td>{category}</td>
-      <td className="flex gap-2">
+      <td className="text-left">{title}</td>
+      <td className="text-center">{category}</td>
+      <td className="text-right gap-2">
         <Link href={`/posts/edit`}>
           <button className="btn btn-large btn-circle btn-ghost">
             <FaEdit />

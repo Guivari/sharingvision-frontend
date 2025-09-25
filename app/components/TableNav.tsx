@@ -17,7 +17,7 @@ export default function TableNav({ activeTab, setActiveTab }: NavbarProps) {
           key={tab}
           onClick={() => setActiveTab(tab)}
           className={`btn btn-ghost text-xl min-h-[4rem] rounded-t-2xl rounded-b-none capitalize ${
-            activeTab === tab ? "bg-gray-700 text-white" : "bg-gray-800 text-white"
+            activeTab === tab ? "bg-gray-900 text-white" : "bg-gray-800 text-white"
           }`}
         >
           {tab}

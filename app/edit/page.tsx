@@ -2,9 +2,6 @@ import Table from "../components/Table";
 import fs from "fs";
 import path from "path";
 
-
-
-
 export default function Home() {
   const filePath = path.join(process.cwd(), "data", "posts.json");
   const jsonData = fs.readFileSync(filePath, "utf-8");
@@ -13,9 +10,7 @@ export default function Home() {
 
   return (
     <div>
-
       <Table posts={posts} initialTab="published" />
-      
     </div>
   );
 }
